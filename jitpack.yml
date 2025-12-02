@@ -1,0 +1,9 @@
+jdk:
+  - openjdk17
+
+build:
+  # Standard Gradle build; JitPack runs this at repo root. When this module
+  # is used as a standalone repository, this file should be at the root.
+  # Here it's provided under scripts/ per project constraints.
+  commands:
+    - ./gradlew clean assemble dokkaJavadoc
