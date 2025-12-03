@@ -10,7 +10,7 @@ Coordinates (via JitPack Maven repository):
 
 - Group: `com.github.vitech-team`
 - Artifacts: `jdbc-wrapper`, `maestro-wrapper`
-- Version: `0.1.0` (or a Git tag)
+- Version: `0.1.1` (or a Git tag)
 
 Using in Kotlin Notebook (Kotlin kernel):
 
@@ -20,8 +20,8 @@ JitPack repository and modules:
 
 ```text
 @file:Repository("https://jitpack.io")
-@file:DependsOn("com.github.vitech-team:jdbc-wrapper:0.1.0")
-@file:DependsOn("com.github.vitech-team:maestro-wrapper:0.1.0")
+@file:DependsOn("com.github.vitech-team:jdbc-wrapper:0.1.1")
+@file:DependsOn("com.github.vitech-team:maestro-wrapper:0.1.1")
 ```
 
 Artifacts
@@ -37,7 +37,7 @@ Initialization (dependencies + JDBC driver):
 
 ```text
 @file:Repository("https://jitpack.io")
-@file:DependsOn("com.github.vitech-team:jdbc-wrapper:0.1.0")
+@file:DependsOn("com.github.vitech-team:jdbc-wrapper:0.1.1")
 ```
 
 Setup (connection):
@@ -71,7 +71,7 @@ Initialization (dependencies):
 
 ```text
 @file:Repository("https://jitpack.io")
-@file:DependsOn("com.github.vitech-team:maestro-wrapper:0.1.0")
+@file:DependsOn("com.github.vitech-team:maestro-wrapper:0.1.1")
 ```
 
 Setup (ensure Maestro CLI is installed and start the wrapper):

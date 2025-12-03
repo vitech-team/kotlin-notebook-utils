@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.github.vitech-team"
-version = "0.1.0"
+version = "0.1.1"
 
 allprojects {
     repositories {
@@ -37,7 +37,6 @@ subprojects {
             publications {
                 create<MavenPublication>("maven") {
                     from(components["java"])
-                    artifact(tasks.named("sourcesJar"))
                     artifact(tasks.named("javadocJar"))
                     pom {
                         name.set(project.name)
